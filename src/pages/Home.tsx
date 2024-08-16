@@ -32,8 +32,6 @@ const Home: React.FC = () => {
                 className="h-full w-full bg-cover bg-center"
                 style={{backgroundImage: `url(${image})`}}
               >
-                {/* Debugging text */}
-                <p className="text-black bg-white p-2">Image {index + 1}: {image}</p>
               </div>
             </div>
           ))}
